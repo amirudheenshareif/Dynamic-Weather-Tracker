@@ -74,3 +74,10 @@ body{
     margin: 1rem 0;
 }
 
+@media (max-width: 768px) {
+    .container {
+        max-width: 85%; 
+        margin: 1rem auto; 
+    }
+}
+
