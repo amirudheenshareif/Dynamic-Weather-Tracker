@@ -71,8 +71,8 @@ return (
      ( <div className="innerContainer">
       <h2 >Weather in {city}</h2>
       <p className='temp'>{temp} °C</p>
-      <p>Humidity:{humidity}</p>
-      <p>Wind speed:{wind}</p>
+      <p>Humidity: {humidity}</p>
+      <p>Wind speed: {wind}</p>
        <p className='errorMsg'>{errorMsg}</p>
       </div>)}
     </div>

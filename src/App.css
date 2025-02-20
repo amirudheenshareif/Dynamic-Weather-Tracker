@@ -14,6 +14,7 @@ body{
     align-items: center;
 }
 .container{
+    padding: 1rem;
     color: white;
     background-color: #1E1E1E;
     box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px;
