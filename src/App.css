@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    font-family: "Poppins", serif;
+    background-color: #121212;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    color: white;
+    background-color: #1E1E1E;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.container h1{
+    padding: 2.5rem 1.5rem;
+}
+.inputContainer{
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.inputContainer input{
+    flex: 1;
+    border: 1px solid #444444;
+    outline: none;
+    padding: 8px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: #2A2A2A;
+    font-family: "Poppins", serif;
+}
+.searchIcon{
+    background-color: #2A2A2A;
+    padding: 8px;
+    border-radius: 15px;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+.innerContainer h2{
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.innerContainer .temp{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.loader{
+    min-height: 200px;
+}
+.errorMsg{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
