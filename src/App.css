@@ -76,7 +76,7 @@ body{
 
 @media (max-width: 768px) {
     .container {
-        max-width: 85%; 
+        max-width: 90%; 
         margin: 1rem auto; 
     }
 }
